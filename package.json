@@ -1,0 +1,16 @@
+{
+    "name": "poke-mapper",
+    "version": "1.0.0",
+    "description": "Simple project exploring object relational mapping using neo4j",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "Matthew Galvin",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.19.2",
+        "neo4j-driver": "^5.19.0"
+    }
+}
